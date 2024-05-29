@@ -1,11 +1,15 @@
-
+import { Outlet } from 'react-router-dom'
 import './App.css'
+import React from 'react'
 
 function App() {
 
   return (
     <div className='app'>
-     <h1>React Axios</h1>
+    <div className="container">
+      <Outlet/>
+      <h2>e</h2>
+    </div>
         
     </div>
   )
