@@ -18,11 +18,12 @@ const Home = () => {
 
       const data = response.data;
       
+      setPosts
     } catch (error) {
       console.log(error)
-    }
+    };
 
-  }
+  };
 
   useEffect(() => {
 
